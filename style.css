@@ -1,0 +1,241 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    margin: 20px 0;
+    color: rgb(199, 199, 199);
+}
+h1 {
+    font-weight: 700;
+}
+h5{
+    color: hsl(26, 100%, 55%);
+    padding: 10px 0;
+    font-weight: 700;
+    
+}
+h2 {
+    padding-right: 10px;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgb(243, 243, 243);
+    margin: 0 200px;
+    height: 80px;
+    
+}
+
+nav .nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-left .logo {
+    margin-right: 40px;
+}
+
+nav .nav-left ul li {
+    display: inline-flex;
+    text-decoration: none;
+    margin-right: 20px;
+    padding:  30px 5px;
+}
+nav .nav-left ul li.menu-active {
+    border-bottom: 5px solid hsl(26, 100%, 55%);
+}
+
+nav .nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px ;
+}
+
+nav .nav-right .cart-icon {
+    display: flex;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    
+    
+}
+nav .nav-right .cart-icon img {
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+nav .nav-right .avatar img {
+    width: 40px;  
+    margin-left: 20px;
+    border: 2px solid hsl(26, 100%, 55%) ;
+    border-radius: 50%;
+   
+}
+
+/* End Nav */
+
+
+/* Start Section */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    
+}
+.container .section {
+    display:flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.container .section-left {
+    display: flex;
+    flex: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+.section-left .product {
+    margin: 10px 0;
+}
+
+.section-left .product .image-product {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.section-left .product .image-product img {
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+    
+}
+
+.section-left  .thumbnail-product{
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    justify-content: space-between;
+    
+}
+.section-left  .thumbnail-product img{
+    width: 60px;
+    height: 60px;
+    
+    box-sizing: border-box;
+    
+    border-radius: 5px;
+}
+
+.section .section-right .product-description {
+    width: 400px;
+    margin: 20px 0;
+}
+
+.container .section .section-right {
+    display: flex;
+    flex: 60%;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    
+}
+.container .section .section-right .price {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+}
+.container .section .section-right .price p {
+    background-color: rgb(255, 236, 199);
+    
+    padding: 2px 5px ;
+    border-radius: 5px;
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+.section .section-right .checkout-product {
+    display: flex;
+    background-color: rgb(250, 250, 250);
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+    padding: 0 10px  ;
+    
+}
+
+.section .section-right .checkout-product p {
+    
+    color: black;
+    border-radius: 4px;
+    justify-content: center;
+    margin: 10px;
+    font-weight: 700;
+    
+    
+    
+}
+.section .section-right .checkout-product img {
+    display: flex;
+    align-items: center;
+    width: 10px;
+    padding: 0 10px;
+    
+    
+    
+}
+.section .section-right .checkout-product button {
+   
+    background-color: rgb(250, 250, 250);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    
+    
+}
+
+
+.section .section-right .checkout-btn button{
+    display: flex;
+    padding: 8px 50px  ;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 15px;
+    background-color: hsl(26, 100%, 55%);
+    font-weight: 700;
+    align-items: center;
+}
+.section .section-right .checkout-btn img{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+

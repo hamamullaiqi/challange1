@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Start Navigation -->
+    <nav>
+      <div class="nav-left">
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo" >
+        </div>
+        <div class="menu">
+          <ul>
+            <li class="menu-active">Collection</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="cart-icon">
+            <img src="images/icon-cart-black.svg" alt="cart">
+            
+        </div>
+        <div class="avatar">
+          <a href="#"><img src="images/image-avatar.png" alt="avatar" ></a>
+        </div>
+    </div>
+    </nav>
+    <!-- End Navigation -->
+
+
+    <!-- start landing page -->
+    <div class="container">
+
+      <div class="section">
+
+        <div class="section-left">
+          <div class="product">
+            <div class="image-product">
+              <img src="images/image-product-1.jpg" alt="image-product"/>
+            </div>
+
+              <div class="thumbnail-product">
+                <img src="images/image-product-1-thumbnail.jpg
+                " alt="thumbnail-product" >
+                <img src="images/image-product-2-thumbnail.jpg
+                " alt="thumbnail-product" >
+                <img src="images/image-product-3-thumbnail.jpg
+                " alt="thumbnail-product" >
+                <img src="images/image-product-4-thumbnail.jpg
+                " alt="thumbnail-product" >
+              </div>
+            </div>
+        </div>
+      
+
+
+        <div class="section-right">
+          <div class="product-description">
+            <h5>SNEAKER COMPANY</h5>
+            <h1>Fall Limited Edition Sneakers</h1>
+            <p>These low-profil sneakers are you perfect casual wear companion. Featuring a durable rubber outer sole. they'll withstand everyting the weather can offer.</p>
+            <div class="price" >
+              
+              <h2 id="discount-price">$125.00</h2> 
+              <p id="discount">50%</p>
+            </div>  
+            
+            <p style="text-decoration: line-through" id="price">$250.00</p>
+          </div>
+            
+          
+
+          <div class= "checkout-product">
+            <button type="button" id="btn-minus" onclick="btnminus()"><img src="images/icon-minus.svg" alt="" srcset=""></button>
+            <p id="jmh-barang" type="number" >1</p>
+            <button type="button" id="btn-plus" onclick="btnplus()"><img src="images/icon-plus.svg" alt="" srcset=""></button>
+            
+          </div>
+          <div class="checkout-btn">
+            <button type="button" >
+              <img src="images/icon-cart-white.svg" alt="">
+              <span>
+                Add to cart
+              </span>
+            </button>
+          </div>
+
+          
+
+          
+        </div>
+      </div>
+
+    </div>
+
+    <!-- End Landing page -->
+
+  <script src="script.js"></script>
+</body>
+</html>
